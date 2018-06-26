@@ -1,0 +1,59 @@
+﻿生成启动时间为 2018/5/8 21:20:31。
+     1>项目“C:\git\MyWorkSpace\MyComEop\MyComEop\MyComEop.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _X86 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MyComEop.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _X86 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyComEop.cpp
+         MyComEop.cpp
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(40): warning C4584: “TypeInfoWrapper”: 基类“ITypeInfo”已是“ITypeInfo2”的基类
+                 c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(2666) : 参见“ITypeInfo”的声明
+                 c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(3172) : 参见“ITypeInfo2”的声明
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(40): warning C4584: “TypeInfoWrapper”: 基类“IPersist”已是“IMoniker”的基类
+                 c:\program files (x86)\windows kits\8.1\include\um\objidl.h(9124) : 参见“IPersist”的声明
+                 c:\program files (x86)\windows kits\8.1\include\um\objidl.h(9350) : 参见“IMoniker”的声明
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(41): warning C4584: “TypeInfoWrapper”: 基类“IPersist”已是“IPersistStream”的基类
+                 c:\program files (x86)\windows kits\8.1\include\um\objidl.h(9124) : 参见“IPersist”的声明
+                 c:\program files (x86)\windows kits\8.1\include\um\objidl.h(9206) : 参见“IPersistStream”的声明
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(303): warning C4101: “written”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(306): warning C4101: “pStmRef”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(348): warning C4101: “pIStream”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(788): warning C4584: “TypeLibWrapper”: 基类“ITypeLib”已是“ITypeLib2”的基类
+                 c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(3662) : 参见“ITypeLib”的声明
+                 c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(3959) : 参见“ITypeLib2”的声明
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(862): warning C4129: “W”: 不可识别的字符转义序列
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(862): warning C4129: “S”: 不可识别的字符转义序列
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(893): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(838): warning C4101: “sInfo”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(837): warning C4101: “pInfo”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(1158): warning C4101: “pIStream”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(1354): warning C4101: “m_ptoken3hToken”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(2114): warning C4101: “pIStream”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(2644): warning C4101: “pIStream”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(2877): warning C4101: “written”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(3273): warning C4101: “pIStream”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(3294): warning C4584: “FPointObject”: 基类“IUnknown”已是“IPersist”的基类
+                 c:\program files (x86)\windows kits\8.1\include\um\unknwnbase.h(111) : 参见“IUnknown”的声明
+                 c:\program files (x86)\windows kits\8.1\include\um\objidl.h(9124) : 参见“IPersist”的声明
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(3294): warning C4584: “FPointObject”: 基类“IUnknown”已是“IMarshal”的基类
+                 c:\program files (x86)\windows kits\8.1\include\um\unknwnbase.h(111) : 参见“IUnknown”的声明
+                 c:\program files (x86)\windows kits\8.1\include\um\objidlbase.h(530) : 参见“IMarshal”的声明
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(3294): warning C4584: “FPointObject”: 基类“IUnknown”已是“ITypeInfo2”的基类
+                 c:\program files (x86)\windows kits\8.1\include\um\unknwnbase.h(111) : 参见“IUnknown”的声明
+                 c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(3172) : 参见“ITypeInfo2”的声明
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(3295): warning C4584: “FPointObject”: 基类“IUnknown”已是“ITypeInfo”的基类
+                 c:\program files (x86)\windows kits\8.1\include\um\unknwnbase.h(111) : 参见“IUnknown”的声明
+                 c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(2666) : 参见“ITypeInfo”的声明
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(3655): warning C4101: “pIStream”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(4300): warning C4129: “W”: 不可识别的字符转义序列
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(4300): warning C4129: “S”: 不可识别的字符转义序列
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(4860): warning C4101: “sInfo”: 未引用的局部变量
+     1>c:\git\myworkspace\mycomeop\mycomeop\mycomeop.cpp(4859): warning C4101: “pInfo”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\git\MyWorkSpace\MyComEop\Debug\MyComEop.exe" /INCREMENTAL /NOLOGO C:\git\MyWorkSpace\MyComEop\Debug\DumpToken.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\git\MyWorkSpace\MyComEop\Debug\MyComEop.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\git\MyWorkSpace\MyComEop\Debug\MyComEop.lib" /MACHINE:X86 Debug\MyComEop.obj
+         Debug\stdafx.obj
+         MyComEop.vcxproj -> C:\git\MyWorkSpace\MyComEop\Debug\MyComEop.exe
+     1>已完成生成项目“C:\git\MyWorkSpace\MyComEop\MyComEop\MyComEop.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:20.26
